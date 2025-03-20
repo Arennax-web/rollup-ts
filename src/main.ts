@@ -1,7 +1,19 @@
-import Food from './food/food'
+// 引入样式
+import './style/index.less';
+// import Food from './moduls/Food';
+// const food =  new Food();
+// console.log(food.X, food.Y);
+// food.change();
+// console.log(food.X, food.Y);
+import GameControl from "./moduls/GameControl";
+const gameControl = new GameControl();
+gameControl.init();
 
-let apple = new Food('apple','red')
 
-let element:Element | null = document.getElementById('main')
 
-element?.insertAdjacentText('beforebegin','zhangsan')
+
+
+
+
+
+
